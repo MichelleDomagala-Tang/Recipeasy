@@ -1,0 +1,317 @@
+.sign-up-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up-container02 {
+  flex: 1;
+  width: 647px;
+  height: 1000px;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  background-image: url("public/playground_assets/vegetables-1000h.jpeg");
+  background-position: center;
+}
+.sign-up-text {
+  top: 50px;
+  left: 50px;
+  position: absolute;
+}
+.sign-up-text02 {
+  color: #ffffff;
+  font-size: 75px;
+}
+.sign-up-form {
+  width: 450px;
+  height: 958px;
+  position: relative;
+}
+.sign-up-text03 {
+  top: 50px;
+  left: 45px;
+  width: 286px;
+  height: 86px;
+  position: absolute;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.sign-up-container03 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container04 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container05 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container06 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-text04 {
+  top: 250px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-text05 {
+  top: 150px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-textinput {
+  top: 300px;
+  left: 0px;
+  right: 0px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-textinput1 {
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-container07 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-text06 {
+  top: 350px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-textinput2 {
+  top: 400px;
+  left: 45px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sign-up-container09 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-text09 {
+  top: 450px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-textinput3 {
+  top: 725px;
+  left: 45px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-textinput4 {
+  top: 500px;
+  left: 45px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-checkbox {
+  left: 282px;
+  bottom: -664px;
+  position: absolute;
+}
+.sign-up-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sign-up-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-text12 {
+  top: 645px;
+  left: 60px;
+  position: absolute;
+}
+.sign-up-text15 {
+  top: 595px;
+  left: 60px;
+  position: absolute;
+}
+.sign-up-checkbox1 {
+  left: 179px;
+  bottom: -563px;
+  position: absolute;
+}
+.sign-up-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up-text18 {
+  top: 645px;
+  left: 300px;
+  position: absolute;
+}
+.sign-up-text21 {
+  top: 595px;
+  left: 300px;
+  position: absolute;
+}
+.sign-up-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up-text24 {
+  top: 645px;
+  left: 195px;
+  position: absolute;
+}
+.sign-up-text27 {
+  top: 595px;
+  left: 195px;
+  position: absolute;
+}
+.sign-up-checkbox2 {
+  top: 602px;
+  left: 44px;
+  position: absolute;
+}
+.sign-up-checkbox3 {
+  top: 649px;
+  left: 45px;
+  position: absolute;
+}
+.sign-up-checkbox4 {
+  top: 601px;
+  left: 281px;
+  position: absolute;
+}
+.sign-up-checkbox5 {
+  top: 601px;
+  left: 179px;
+  position: absolute;
+}
+.sign-up-checkbox6 {
+  top: 602px;
+  left: 44px;
+  position: absolute;
+}
+.sign-up-checkbox7 {
+  top: 602px;
+  left: 44px;
+  position: absolute;
+}
+.sign-up-container16 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-text30 {
+  top: 675px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-text31 {
+  top: 550px;
+  left: 45px;
+  position: absolute;
+  font-size: 30px;
+}
+.sign-up-navlink {
+  left: 145px;
+  bottom: 115px;
+  position: absolute;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.sign-up-text32 {
+  top: 335px;
+  left: 45px;
+  color: rgb(255, 0, 0);
+  position: absolute;
+  font-size: 12px;
+}
+.sign-up-navlink1 {
+  top: 25px;
+  right: 25px;
+  position: absolute;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .sign-up-text02 {
+    color: #ffffff;
+    font-size: 75px;
+  }
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>All-Recipes-Page-Logged-in-Ria - Recipeasy</title>
+    <!-- Import JQuery for JS Logic -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> 
+    <meta
+      property="og:title"
+      content="All-Recipes-Page-Logged-in-Ria - Recipeasy"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./all-recipes-page-logged-in-ria.css" rel="stylesheet" />
+
+      <div class="all-recipes-page-logged-in-ria-container">
+        <div class="all-recipes-page-logged-in-ria-top-container">
+          <header
+            data-role="Header"
+            class="all-recipes-page-logged-in-ria-header"
+          >
+            <div class="all-recipes-page-logged-in-ria-nav"></div>
+            <div class="all-recipes-page-logged-in-ria-container01">
+              <span class="all-recipes-page-logged-in-ria-text">
+                Welcome, Ria
+              </span>
+            </div>
+            <div class="all-recipes-page-logged-in-ria-btn-group">
+              <a
+                href="index.html"
+                class="all-recipes-page-logged-in-ria-logout button"
+              >
+                Logout
+              </a>
+            </div>
+          </header>
+          <h1 class="all-recipes-page-logged-in-ria-text01">Recipeasy</h1>
+        </div>
+        <div class="all-recipes-page-logged-in-ria-banner">
+          <div class="all-recipes-page-logged-in-ria-container02">
+            <div class="all-recipes-page-logged-in-ria-container03 button">
+              <h1 class="all-recipes-page-logged-in-ria-text02">All Recipes</h1>
+            </div>
+            <a
+              href="saved-recipes.html"
+              class="all-recipes-page-logged-in-ria-navlink"
+            >
+              <div class="all-recipes-page-logged-in-ria-container04 button">
+                <h1 class="all-recipes-page-logged-in-ria-heading">
+                  Saved Recipes
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="all-recipes-page-logged-in-ria-container05">
+            <span class="all-recipes-page-logged-in-ria-text03">
+              Search for something specific....&nbsp;&nbsp;
+            </span>
+            <input
+              type="text"
+              placeholder="Search for a recipe..."
+              class="all-recipes-page-logged-in-ria-textinput input"
+            />
+            <button class="all-recipes-page-logged-in-ria-button button">
+              Search
+            </button>
+          </div>
+        </div>
+        <div id="main-section" class="all-recipes-page-logged-in-ria-main">
+          <div class="all-recipes-page-logged-in-ria-container06">
+            <div class="all-recipes-page-logged-in-ria-container07">
+              <span class="all-recipes-page-logged-in-ria-text04">
+                <span class="all-recipes-page-logged-in-ria-text05">
+                  FILTERS
+                </span>
+                <br />
+              </span>
+              <svg
+                viewBox="0 0 1024 1024"
+                class="all-recipes-page-logged-in-ria-icon"
+              >
+                <path
+                  d="M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z"
+                ></path>
+              </svg>
+              <a
+                href="all-recipes-with-filter-page-with-ria.html"
+                class="all-recipes-page-logged-in-ria-navlink1"
+              >
+                <div class="all-recipes-page-logged-in-ria-container08">
+                  <input
+                    type="checkbox"
+                    onclick="window.location.href='all-recipes-with-filter-page-with-ria.html'"
+                    class="all-recipes-page-logged-in-ria-checkbox"
+                  />
+                  <span class="all-recipes-page-logged-in-ria-text07">
+                    Pasta
+                  </span>
+                </div>
+              </a>
+              <div class="all-recipes-page-logged-in-ria-container09">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox01"
+                />
+                <span class="all-recipes-page-logged-in-ria-text08">
+                  <span>Soups</span>
+                  <br />
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container10">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox02"
+                />
+                <span class="all-recipes-page-logged-in-ria-text11">BBQ</span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container11">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox03"
+                />
+                <span class="all-recipes-page-logged-in-ria-text12">Pizza</span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container12">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox04"
+                />
+                <span class="all-recipes-page-logged-in-ria-text13">
+                  Salads
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container13">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox05"
+                />
+                <span class="all-recipes-page-logged-in-ria-text14">
+                  Noodles
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container14">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox06"
+                />
+                <span class="all-recipes-page-logged-in-ria-text15">
+                  Rice Bowls
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container15">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox07"
+                />
+                <span class="all-recipes-page-logged-in-ria-text16">
+                  Sandwiches&nbsp;
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container16">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox08"
+                />
+                <span class="all-recipes-page-logged-in-ria-text17">Wraps</span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container17">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox09"
+                />
+                <span class="all-recipes-page-logged-in-ria-text18">
+                  Breakfast
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container18">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox10"
+                />
+                <span class="all-recipes-page-logged-in-ria-text19">Lunch</span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container19">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox11"
+                />
+                <span class="all-recipes-page-logged-in-ria-text20">
+                  Dinner
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container20">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox12"
+                />
+                <span class="all-recipes-page-logged-in-ria-text21">
+                  Snacks
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container21">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox13"
+                />
+                <span class="all-recipes-page-logged-in-ria-text22">
+                  Dessert
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container22">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox14"
+                />
+                <span class="all-recipes-page-logged-in-ria-text23">
+                  High Protien
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container23">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox15"
+                />
+                <span class="all-recipes-page-logged-in-ria-text24">
+                  Low Carb
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container24">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-ria-checkbox16"
+                />
+                <span class="all-recipes-page-logged-in-ria-text25">
+                  <span>Keto</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="all-recipes-page-logged-in-ria-gallery">
+              <div class="all-recipes-page-logged-in-ria-container25">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGZvb2R8ZW58MHx8fHwxNjY4MjY1NjE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image"
+                />
+                <div class="all-recipes-page-logged-in-ria-container26">
+                  <div class="all-recipes-page-logged-in-ria-container27">
+                    <h2 class="all-recipes-page-logged-in-ria-text28">
+                      Salmon Bowl
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container28">
+                    <!-- Comment: Added onclick event to heart button -->
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container29">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxmb29kfGVufDB8fHx8MTY2ODI2NTYxNg&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image01"
+                />
+                <div class="all-recipes-page-logged-in-ria-container30">
+                  <div class="all-recipes-page-logged-in-ria-container31">
+                    <h2 class="all-recipes-page-logged-in-ria-text29">
+                      French Toast
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container32">
+                    <button
+                      class="all-recipes-page-logged-in-ria-button05 button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container33">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBpenphfGVufDB8fHx8MTY2ODI2NjQxMg&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image02"
+                />
+                <div class="all-recipes-page-logged-in-ria-container34">
+                  <div class="all-recipes-page-logged-in-ria-container35">
+                    <h2 class="all-recipes-page-logged-in-ria-text30">
+                      Vegetarian Pizza
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container36">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container37">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1515516969-d4008cc6241a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1lYXRiYWxsc3xlbnwwfHx8fDE2NjgyNjY0OTQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image03"
+                />
+                <div class="all-recipes-page-logged-in-ria-container38">
+                  <div class="all-recipes-page-logged-in-ria-container39">
+                    <h2 class="all-recipes-page-logged-in-ria-text31">
+                      Mama's Meatballs
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container40">
+                    <button
+                      class="all-recipes-page-logged-in-ria-button05 button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container41">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGZvb2R8ZW58MHx8fHwxNjY4MjY1NjE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image04"
+                />
+                <div class="all-recipes-page-logged-in-ria-container42">
+                  <div class="all-recipes-page-logged-in-ria-container43">
+                    <h2 class="all-recipes-page-logged-in-ria-text32">
+                      Chicken Skewers
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container44">
+                    <button
+                      class="all-recipes-page-logged-in-ria-button05 button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container45">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image05"
+                />
+                <div class="all-recipes-page-logged-in-ria-container46">
+                  <div class="all-recipes-page-logged-in-ria-container47">
+                    <h2 class="all-recipes-page-logged-in-ria-text33">
+                      Onion Burger
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container48">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <!-- <a href="recipe-details-page-logged-in.html"></a> -->
+              <div class="recipe-box-container">
+                <a href="recipe-details-page-logged-in.html" style="width:100%">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGFsZnJlZG98ZW58MHx8fHwxNjY4MjY3NjI0&amp;ixlib=rb-4.0.3&amp;h=1500"
+                    class="recipe-box-image"
+                  />
+                </a>
+                <div class="recipe-box-container1">
+                  <a href="recipe-details-page-logged-in.html">
+                    <div class="recipe-box-container2">
+                      <h2 class="recipe-box-text">
+                        <span>Bacon Alfredo</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <div class="recipe-box-container3">
+                    <a href="recipe-details-page-logged-in.html"></a>
+                    <a class="recipe-box-navlink button" onclick="heartClicked(this)">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all-recipes-page-logged-in-ria-container49">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1609951651556-5334e2706168?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMxfHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image06"
+                />
+                <div class="all-recipes-page-logged-in-ria-container50">
+                  <div class="all-recipes-page-logged-in-ria-container51">
+                    <h2 class="all-recipes-page-logged-in-ria-text34">
+                      Moscow Mule
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container52">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container53">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM2fHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image07"
+                />
+                <div class="all-recipes-page-logged-in-ria-container54">
+                  <div class="all-recipes-page-logged-in-ria-container55">
+                    <h2 class="all-recipes-page-logged-in-ria-text35">
+                      Salmon in Red Sauce
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container56">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container57">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYwfHxmb29kfGVufDB8fHx8MTY2ODI3MDkyNw&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image08"
+                />
+                <div class="all-recipes-page-logged-in-ria-container58">
+                  <div class="all-recipes-page-logged-in-ria-container59">
+                    <h2 class="all-recipes-page-logged-in-ria-text36">
+                      Oreo Dessert
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container60">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container61">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDgwfHxmb29kfGVufDB8fHx8MTY2ODI3MDk0NQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image09"
+                />
+                <div class="all-recipes-page-logged-in-ria-container62">
+                  <div class="all-recipes-page-logged-in-ria-container63">
+                    <h2 class="all-recipes-page-logged-in-ria-text37">
+                      Squash Soup
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container64">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-ria-container65">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGNoaWNrZW58ZW58MHx8fHwxNjY4MjcwOTcw&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-ria-image10"
+                />
+                <div class="all-recipes-page-logged-in-ria-container66">
+                  <div class="all-recipes-page-logged-in-ria-container67">
+                    <h2 class="all-recipes-page-logged-in-ria-text38">
+                      Roast Chicken
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-ria-container68">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <!-- Comment: heartClicked function to change visual of heart button -->
+    <script>
+      function heartClicked(element){
+        console.log(element.style["background-image"], 'printed');
+        // Comment: element returns null for background-image on first click, not sure why
+        // This means pre-programmed filled hearts need to be clicked twice
+        if (element.style["background-image"] == "url(\"public/playground_assets/filled-heart-200h.png\")") {
+          element.style.backgroundImage = "url('public/playground_assets/empty-heart-200h.png')";
+        }
+        else {
+          element.style.backgroundImage = "url('public/playground_assets/filled-heart-200h.png')";
+        }
+        
+      }
+    </script>
+  </body>
+</html>

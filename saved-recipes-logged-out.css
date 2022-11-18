@@ -1,0 +1,692 @@
+.saved-recipes-logged-out-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.saved-recipes-logged-out-top-container {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb29kfGVufDB8fHx8MTY2ODI2NTYxNg&ixlib=rb-4.0.3&w=1500");
+  background-position: 0% 40%;
+}
+.saved-recipes-logged-out-header {
+  width: 100%;
+  height: 173px;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: row;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.saved-recipes-logged-out-nav {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.saved-recipes-logged-out-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.saved-recipes-logged-out-text {
+  width: 200px;
+  height: 44px;
+  font-family: Poppins;
+}
+.saved-recipes-logged-out-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saved-recipes-logged-out-login {
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.saved-recipes-logged-out-login:active {
+  background-color: var(--dl-color-gray-900);
+}
+.saved-recipes-logged-out-register {
+  border-color: var(--dl-color-gray-500);
+  text-decoration: none;
+}
+.saved-recipes-logged-out-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 00px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
+.saved-recipes-logged-out-container02 {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.saved-recipes-logged-out-navlink {
+  display: contents;
+}
+.saved-recipes-logged-out-container03 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #efb994;
+}
+
+.saved-recipes-logged-out-text01 {
+  font-style: normal;
+  font-weight: 700;
+}
+.saved-recipes-logged-out-container04 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 3px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: #ed9d9d;
+}
+.saved-recipes-logged-out-heading {
+  font-style: normal;
+  font-weight: 700;
+}
+.saved-recipes-logged-out-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  flex-direction: row;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.saved-recipes-logged-out-text02 {
+  color: rgb(80, 7, 24);
+  font-size: 40px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 400;
+  background-color: rgb(255, 230, 230);
+}
+.saved-recipes-logged-out-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  flex-direction: row;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.saved-recipes-logged-out-text03 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 300;
+}
+.saved-recipes-logged-out-textinput {
+  width: 404px;
+  height: 37px;
+  font-size: 0.75rem;
+  border-color: var(--dl-color-gray-500);
+}
+.saved-recipes-logged-out-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.saved-recipes-logged-out-button:hover {
+  color: var(--dl-color-gray-black);
+  background-color: transparent;
+}
+.saved-recipes-logged-out-main {
+  width: 100%;
+  height: 1346px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 1px;
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: flex-start;
+  background-color: #fff6f6;
+}
+.saved-recipes-logged-out-container07 {
+  width: 100%;
+  height: 1247px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-container08 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 1499px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-text04 {
+  z-index: 100;
+  align-self: flex-start;
+  text-align: left;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: rgb(233, 174, 174);
+}
+.saved-recipes-logged-out-text05 {
+  font-size: 40px;
+}
+.saved-recipes-logged-out-icon {
+  width: 24px;
+  height: 24px;
+}
+.saved-recipes-logged-out-container09 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text07 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container10 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox01 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text08 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container11 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox02 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text11 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container12 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox03 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text12 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container13 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox04 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text13 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container14 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox05 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text14 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container15 {
+  flex: 0 0 auto;
+  width: 184px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox06 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text15 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container16 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox07 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text16 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container17 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox08 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text17 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container18 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox09 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text18 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container19 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox10 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text19 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container20 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox11 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text20 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container21 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox12 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text21 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container22 {
+  flex: 0 0 auto;
+  width: 93px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox13 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text22 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container23 {
+  flex: 0 0 auto;
+  width: 184px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox14 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text23 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container24 {
+  flex: 0 0 auto;
+  width: 184px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox15 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text24 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-container25 {
+  flex: 0 0 auto;
+  width: 184px;
+  height: DoubleUnit;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.saved-recipes-logged-out-checkbox16 {
+  width: auto;
+  height: var(--dl-size-size-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-text25 {
+  line-height: 1.85;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.saved-recipes-logged-out-gallery {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 1291px;
+  display: grid;
+  z-index: 100;
+  grid-gap: var(--dl-space-space-unit);
+  max-width: 1400px;
+  align-self: flex-start;
+  padding-top: 39px;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-left: 48px;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 48px;
+  padding-bottom: 9px;
+  background-color: #ecebeb;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .saved-recipes-logged-out-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .saved-recipes-logged-out-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saved-recipes-logged-out-nav {
+    display: none;
+  }
+  .saved-recipes-logged-out-btn-group {
+    display: none;
+  }
+  .saved-recipes-logged-out-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .saved-recipes-logged-out-main {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .saved-recipes-logged-out-gallery {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .saved-recipes-logged-out-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .saved-recipes-logged-out-banner {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .saved-recipes-logged-out-container05 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .saved-recipes-logged-out-container06 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .saved-recipes-logged-out-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .saved-recipes-logged-out-gallery {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

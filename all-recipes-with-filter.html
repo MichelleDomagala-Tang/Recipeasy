@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>All-Recipes-with-Filter - Recipeasy</title>
+    <meta property="og:title" content="All-Recipes-with-Filter - Recipeasy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./all-recipes-with-filter.css" rel="stylesheet" />
+
+      <div class="all-recipes-with-filter-container">
+        <div class="all-recipes-with-filter-top-container">
+          <header data-role="Header" class="all-recipes-with-filter-header">
+            <div class="all-recipes-with-filter-nav"></div>
+            <div class="all-recipes-with-filter-container01"></div>
+            <h1 class="all-recipes-with-filter-text">Recipeasy</h1>
+            <div class="all-recipes-with-filter-btn-group">
+              <a href="login.html" class="all-recipes-with-filter-login button">
+                Login
+              </a>
+              <a
+                href="sign-up.html"
+                class="all-recipes-with-filter-register button"
+              >
+                Register
+              </a>
+            </div>
+          </header>
+        </div>
+        <div class="all-recipes-with-filter-banner">
+          <div class="all-recipes-with-filter-container02">
+            <a
+              href="all-recipes-with-filter.html"
+              class="all-recipes-with-filter-navlink"
+            >
+              <div class="all-recipes-with-filter-container03 button">
+                <h1 class="all-recipes-with-filter-text01">All Recipes</h1>
+              </div>
+            </a>
+            <a
+              href="saved-recipes-logged-out.html"
+              class="all-recipes-with-filter-navlink1"
+            >
+              <div class="all-recipes-with-filter-container04 button">
+                <h1 class="all-recipes-with-filter-heading">Saved Recipes</h1>
+              </div>
+            </a>
+          </div>
+          <div class="all-recipes-with-filter-container05">
+            <span class="all-recipes-with-filter-text02">
+              Search for something specific....&nbsp;&nbsp;
+            </span>
+            <input
+              type="text"
+              placeholder="Search for a recipe..."
+              class="all-recipes-with-filter-textinput input"
+            />
+            <button class="all-recipes-with-filter-button button">
+              Search
+            </button>
+          </div>
+        </div>
+        <div id="main-section" class="all-recipes-with-filter-main">
+          <div class="all-recipes-with-filter-container06">
+            <div class="all-recipes-with-filter-container07">
+              <span class="all-recipes-with-filter-text03">
+                <span class="all-recipes-with-filter-text04">FILTERS</span>
+                <br />
+              </span>
+              <svg viewBox="0 0 1024 1024" class="all-recipes-with-filter-icon">
+                <path
+                  d="M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z"
+                ></path>
+              </svg>
+              <a href="index.html" class="all-recipes-with-filter-navlink2">
+                <div class="all-recipes-with-filter-container08">
+                  <input
+                    type="checkbox"
+                    onclick="window.location.href='index.html'"
+                    checked=""
+                    class="all-recipes-with-filter-checkbox"
+                  />
+                  <span class="all-recipes-with-filter-text06">Pasta</span>
+                </div>
+              </a>
+              <div class="all-recipes-with-filter-container09">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox01"
+                />
+                <span class="all-recipes-with-filter-text07">
+                  <span>Soups</span>
+                  <br />
+                </span>
+              </div>
+              <div class="all-recipes-with-filter-container10">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox02"
+                />
+                <span class="all-recipes-with-filter-text10">BBQ</span>
+              </div>
+              <div class="all-recipes-with-filter-container11">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox03"
+                />
+                <span class="all-recipes-with-filter-text11">Pizza</span>
+              </div>
+              <div class="all-recipes-with-filter-container12">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox04"
+                />
+                <span class="all-recipes-with-filter-text12">Salads</span>
+              </div>
+              <div class="all-recipes-with-filter-container13">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox05"
+                />
+                <span class="all-recipes-with-filter-text13">Noodles</span>
+              </div>
+              <div class="all-recipes-with-filter-container14">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox06"
+                />
+                <span class="all-recipes-with-filter-text14">Rice Bowls</span>
+              </div>
+              <div class="all-recipes-with-filter-container15">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox07"
+                />
+                <span class="all-recipes-with-filter-text15">
+                  Sandwiches&nbsp;
+                </span>
+              </div>
+              <div class="all-recipes-with-filter-container16">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox08"
+                />
+                <span class="all-recipes-with-filter-text16">Wraps</span>
+              </div>
+              <div class="all-recipes-with-filter-container17">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox09"
+                />
+                <span class="all-recipes-with-filter-text17">Breakfast</span>
+              </div>
+              <div class="all-recipes-with-filter-container18">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox10"
+                />
+                <span class="all-recipes-with-filter-text18">Lunch</span>
+              </div>
+              <div class="all-recipes-with-filter-container19">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox11"
+                />
+                <span class="all-recipes-with-filter-text19">Dinner</span>
+              </div>
+              <div class="all-recipes-with-filter-container20">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox12"
+                />
+                <span class="all-recipes-with-filter-text20">Snacks</span>
+              </div>
+              <div class="all-recipes-with-filter-container21">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox13"
+                />
+                <span class="all-recipes-with-filter-text21">Dessert</span>
+              </div>
+              <div class="all-recipes-with-filter-container22">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox14"
+                />
+                <span class="all-recipes-with-filter-text22">High Protien</span>
+              </div>
+              <div class="all-recipes-with-filter-container23">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox15"
+                />
+                <span class="all-recipes-with-filter-text23">Low Carb</span>
+              </div>
+              <div class="all-recipes-with-filter-container24">
+                <input
+                  type="checkbox"
+                  class="all-recipes-with-filter-checkbox16"
+                />
+                <span class="all-recipes-with-filter-text24">
+                  <span>Keto</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="all-recipes-with-filter-gallery">
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1616299908398-9af1134ad522?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBlc3RvfGVufDB8fHx8MTY2ODI2NjYwOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Pesto Chicken</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBhc3RhfGVufDB8fHx8MTY2ODI2NjM4OQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text">
+                      <span>Penne Alla Vodka</span>
+                    </h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1626844131082-256783844137?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxzcGFnaGV0dGl8ZW58MHx8fHwxNjY4MjY3Mzk4&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Tomato Pasta</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1515516969-d4008cc6241a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1lYXRiYWxsc3xlbnwwfHx8fDE2NjgyNjY0OTQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text">
+                      <span>Mama's Meatballs</span>
+                    </h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1628885363743-fbf9c98d4196?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fHJhdmlvbGl8ZW58MHx8fHwxNjY4MjY3NjA5&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text">
+                      <span>Spinach Ravioli</span>
+                    </h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1513862153653-f8b7324e1779?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxyYXZpb2xpfGVufDB8fHx8MTY2ODI2NzYwOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Stuffed Pasta</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- <a href="recipe-details-page-logged-out.html"></a> -->
+              <div class="recipe-box-container">
+                <a href="recipe-details-page-logged-out.html" style="width:100%">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGFsZnJlZG98ZW58MHx8fHwxNjY4MjY3NjI0&amp;ixlib=rb-4.0.3&amp;h=1500"
+                    class="recipe-box-image"
+                  />
+                </a>
+                <div class="recipe-box-container1">
+                  <a href="recipe-details-page-logged-out.html">
+                    <div class="recipe-box-container2">
+                      <h2 class="recipe-box-text">
+                        <span>Bacon Alfredo</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <div class="recipe-box-container3">
+                    <a href="recipe-details-page-logged-out.html"></a>
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1551462147-1c15e4852bbf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1fHxwYXN0YXxlbnwwfHx8fDE2NjgyNjYzODk&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Fresh Noodles</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGxhc2FnbmF8ZW58MHx8fHwxNjY4MjY3NjYw&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Lasagna</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1599749011927-9a77278bfa61?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxwYXN0YXxlbnwwfHx8fDE2NjgyNjYzODk&amp;ixlib=rb-4.0.3&amp;h=1600"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Bowtie Spinach</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1614173188975-b77298c35fea?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYxfHxwYXN0YXxlbnwwfHx8fDE2NjgyNjcxMjc&amp;ixlib=rb-4.0.3&amp;h=1600"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Beet Pasta</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-box-container">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1607546965882-e025ff0edc61?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDc1fHxwYXN0YXxlbnwwfHx8fDE2NjgyNjgwMjk&amp;ixlib=rb-4.0.3&amp;h=1600"
+                  class="recipe-box-image"
+                />
+                <div class="recipe-box-container1">
+                  <div class="recipe-box-container2">
+                    <h2 class="recipe-box-text"><span>Mac and Cheese</span></h2>
+                  </div>
+                  <div class="recipe-box-container3">
+                    <a href="login.html" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

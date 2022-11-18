@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Recipe-Details-Page-Logged-In - Recipeasy</title>
+    <meta
+      property="og:title"
+      content="Recipe-Details-Page-Logged-In - Recipeasy"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./recipe-details-page-logged-in.css" rel="stylesheet" />
+
+      <div class="recipe-details-page-logged-in-container">
+        <div class="recipe-details-page-logged-in-top-container">
+          <header
+            data-role="Header"
+            class="recipe-details-page-logged-in-header"
+          >
+            <div class="recipe-details-page-logged-in-nav"></div>
+            <div class="recipe-details-page-logged-in-container01">
+              <span class="recipe-details-page-logged-in-text">
+                Welcome, Ria
+              </span>
+            </div>
+            <div class="recipe-details-page-logged-in-btn-group">
+              <a
+                href="recipe-details-page-logged-out.html"
+                class="recipe-details-page-logged-in-logout button"
+              >
+                Logout
+              </a>
+            </div>
+          </header>
+          <h1 class="recipe-details-page-logged-in-text01">Recipeasy</h1>
+        </div>
+        <div class="recipe-details-page-logged-in-banner">
+          <div class="recipe-details-page-logged-in-container02">
+            <a
+              href="all-recipes-page-logged-in-ria.html"
+              class="recipe-details-page-logged-in-navlink"
+            >
+              <div class="recipe-details-page-logged-in-container03 button">
+                <h1 class="recipe-details-page-logged-in-text02">
+                  All Recipes
+                </h1>
+              </div>
+            </a>
+            <div class="recipe-details-page-logged-in-container04 button">
+              <h1 class="recipe-details-page-logged-in-heading">
+                Saved Recipes
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div id="main-section" class="recipe-details-page-logged-in-main">
+          <div class="recipe-details-page-logged-in-container05">
+            <div class="recipe-details-page-logged-in-container06">
+              <h1 class="recipe-details-page-logged-in-text03">
+                &nbsp;Bacon Alfredo&nbsp;
+              </h1>
+              <!-- <button class="recipe-details-page-logged-in-button button">
+                &nbsp;
+              </button> -->
+              <div class="recipe-details-page-logged-in-container07">
+                <span>Recipe Rating:</span>
+                <img
+                  alt="image"
+                  src="http://cdn.onlinewebfonts.com/svg/img_530212.png"
+                  class="recipe-details-page-logged-in-image"
+                />
+              </div>
+            </div>
+            <!-- Comment: Had to move outside container to create hover effect -->
+            <button class="recipe-details-page-logged-in-button button">
+              &nbsp;
+            </button>
+          </div>
+          <div class="recipe-details-page-logged-in-container08">
+            <div class="recipe-details-page-logged-in-container09">
+              <div class="recipe-details-page-logged-in-container10">
+                <span class="recipe-details-page-logged-in-text05">
+                  Ingredients:
+                </span>
+                <div class="recipe-details-page-logged-in-container11">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox"
+                  />
+                  <span class="recipe-details-page-logged-in-text06">
+                    &nbsp;1 (9-ounce) package fresh fettuccine
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container12">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox01"
+                  />
+                  <span class="recipe-details-page-logged-in-text07">
+                    &nbsp;2 slices applewood-smoked bacon, chopped
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container13">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox02"
+                  />
+                  <span class="recipe-details-page-logged-in-text08">
+                    &nbsp;1 teaspoon minced garlic
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container14">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox03"
+                  />
+                  <span class="recipe-details-page-logged-in-text09">
+                    &nbsp;1 tablespoon all-purpose flour
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container15">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox04"
+                  />
+                  <span class="recipe-details-page-logged-in-text10">
+                    &nbsp;1 teaspoon minced garlic
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container16">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox05"
+                  />
+                  <span class="recipe-details-page-logged-in-text11">
+                    &nbsp;1 cup 1% low-fat milk
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container17">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox06"
+                  />
+                  <span class="recipe-details-page-logged-in-text12">
+                    &nbsp;2/3 cup grated Parmigiano-Reggiano cheese
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container18">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox07"
+                  />
+                  <span class="recipe-details-page-logged-in-text13">
+                    &nbsp;1/2 teaspoon kosher salt
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container19">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox08"
+                  />
+                  <span class="recipe-details-page-logged-in-text14">
+                    &nbsp;2 tablespoons chopped fresh parsley
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container20">
+                  <input
+                    type="checkbox"
+                    checked="true"
+                    class="recipe-details-page-logged-in-checkbox09"
+                  />
+                  <span class="recipe-details-page-logged-in-text15">
+                    &nbsp;1/2 teaspoon freshly ground black pepper
+                  </span>
+                </div>
+                <span class="recipe-details-page-logged-in-text16">
+                  Recipe Details:
+                </span>
+              </div>
+              <div class="recipe-details-page-logged-in-container21">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGFsZnJlZG98ZW58MHx8fHwxNjY4MjY3NjI0&amp;ixlib=rb-4.0.3&amp;w=700"
+                  class="recipe-details-page-logged-in-image1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="recipe-details-page-logged-in-container22">
+            <div class="recipe-details-page-logged-in-container23">
+              <div class="recipe-details-page-logged-in-container24">
+                <div class="recipe-details-page-logged-in-container25">
+                  <img
+                    alt="image"
+                    src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/10-512.png"
+                    class="recipe-details-page-logged-in-image2"
+                  />
+                </div>
+                <div class="recipe-details-page-logged-in-container26">
+                  <span class="recipe-details-page-logged-in-text17">
+                    Prep Time
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container27">
+                  <span>20 mins</span>
+                </div>
+              </div>
+              <div class="recipe-details-page-logged-in-container28">
+                <div class="recipe-details-page-logged-in-container29">
+                  <img
+                    alt="image"
+                    src="https://static.thenounproject.com/png/4306496-200.png"
+                    class="recipe-details-page-logged-in-image3"
+                  />
+                </div>
+                <div class="recipe-details-page-logged-in-container30">
+                  <span class="recipe-details-page-logged-in-text19">
+                    Difficulty
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container31">
+                  <span>Easy</span>
+                </div>
+              </div>
+              <div class="recipe-details-page-logged-in-container32">
+                <div class="recipe-details-page-logged-in-container33">
+                  <img
+                    alt="image"
+                    src="https://t4.ftcdn.net/jpg/01/95/72/63/360_F_195726317_wFd4mjm0KgcQg4NVgQM8yzRaJAAm8OYu.jpg"
+                    class="recipe-details-page-logged-in-image4"
+                  />
+                </div>
+                <div class="recipe-details-page-logged-in-container34">
+                  <span class="recipe-details-page-logged-in-text21">
+                    Servings
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container35">
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="recipe-details-page-logged-in-container36">
+                <div class="recipe-details-page-logged-in-container37">
+                  <img
+                    alt="image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BKPRNdC1AmuuzWHr1wvScR0UnlOEqpSaamtnIeptzFT-D9gaRc1a5gx6AyBtH6FBr9Q&amp;usqp=CAU"
+                    class="recipe-details-page-logged-in-image5"
+                  />
+                </div>
+                <div class="recipe-details-page-logged-in-container38">
+                  <span class="recipe-details-page-logged-in-text23">
+                    Meal Type
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container39">
+                  <span>Lunch/Dinner</span>
+                </div>
+              </div>
+              <div class="recipe-details-page-logged-in-container40">
+                <div class="recipe-details-page-logged-in-container41">
+                  <img
+                    alt="image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRVikNpHPDLqSKBjvaGC9RbCWb2PCAeZbWHw&amp;usqp=CAU"
+                    class="recipe-details-page-logged-in-image6"
+                  />
+                </div>
+                <div class="recipe-details-page-logged-in-container42">
+                  <span class="recipe-details-page-logged-in-text25">
+                    Origin
+                  </span>
+                </div>
+                <div class="recipe-details-page-logged-in-container43">
+                  <span>Italy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recipe-details-page-logged-in-container44">
+            <div class="recipe-details-page-logged-in-container45">
+              <span class="recipe-details-page-logged-in-text27">
+                Instructions:&nbsp;
+              </span>
+            </div>
+          </div>
+          <div class="recipe-details-page-logged-in-container46">
+            <div class="recipe-details-page-logged-in-container47">
+              <span class="recipe-details-page-logged-in-text28">
+                <span class="recipe-details-page-logged-in-text29">
+                  STEP ONE
+                </span>
+                <br class="recipe-details-page-logged-in-text30" />
+                <span class="recipe-details-page-logged-in-text31">
+                  Cook pasta according to package directions, omitting salt and
+                  fat. Drain in a colander over a bowl, reserving 1/4 cup
+                  cooking liquid.
+                </span>
+                <br class="recipe-details-page-logged-in-text32" />
+                <br class="recipe-details-page-logged-in-text33" />
+                <span class="recipe-details-page-logged-in-text34">
+                  STEP TWO
+                </span>
+                <br class="recipe-details-page-logged-in-text35" />
+                <span class="recipe-details-page-logged-in-text36">
+                  While pasta cooks, cook bacon in a large nonstick skillet over
+                  medium-high heat 4 minutes or until crisp, stirring
+                  occasionally. Remove bacon from pan, reserving drippings. Add
+                  garlic to drippings in pan; sauté 1 minute, stirring
+                  constantly. Sprinkle flour over garlic; cook 30 seconds,
+                  stirring constantly. Gradually add milk, stirring constantly;
+                  cook 2 minutes or until bubbly and slightly thick, stirring
+                  constantly. Reduce heat to low. Gradually add cheese, stirring
+                  until cheese melts. Stir in salt and reserved 1/4 cup cooking
+                  liquid. Add hot pasta to pan; toss well to combine. Sprinkle
+                  with bacon, parsley, and pepper.
+                </span>
+                <br class="recipe-details-page-logged-in-text37" />
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="recipe-details-page-logged-in-container48">
+            <div class="recipe-details-page-logged-in-container49">
+              <a
+                href="https://www.myrecipes.com/recipe/fettuccine-alfredo-with-bacon"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="recipe-details-page-logged-in-link"
+              >
+                Original Recipe URL
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>All-Recipes-Page-Logged-in-Matt - Recipeasy</title>
+    <!-- Import JQuery for JS Logic -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> 
+    <meta
+      property="og:title"
+      content="All-Recipes-Page-Logged-in-Matt - Recipeasy"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./all-recipes-page-logged-in-matt.css" rel="stylesheet" />
+
+      <div class="all-recipes-page-logged-in-matt-container">
+        <div class="all-recipes-page-logged-in-matt-top-container">
+          <header
+            data-role="Header"
+            class="all-recipes-page-logged-in-matt-header"
+          >
+            <div class="all-recipes-page-logged-in-matt-container01">
+              <span class="all-recipes-page-logged-in-matt-text">
+                Welcome, Matt
+              </span>
+              <div class="all-recipes-page-logged-in-matt-nav"></div>
+            </div>
+            <div class="all-recipes-page-logged-in-matt-container02"></div>
+            <div class="all-recipes-page-logged-in-matt-btn-group">
+              <a
+                href="index.html"
+                class="all-recipes-page-logged-in-matt-logout button"
+              >
+                Logout
+              </a>
+            </div>
+          </header>
+          <h1 class="all-recipes-page-logged-in-matt-text01">Recipeasy</h1>
+        </div>
+        <div class="all-recipes-page-logged-in-matt-banner">
+          <div class="all-recipes-page-logged-in-matt-container03">
+            <a
+              href="index.html"
+              class="all-recipes-page-logged-in-matt-navlink"
+            >
+              <div class="all-recipes-page-logged-in-matt-container04 button">
+                <h1 class="all-recipes-page-logged-in-matt-text02">
+                  All Recipes
+                </h1>
+              </div>
+            </a>
+            <div class="all-recipes-page-logged-in-matt-container05 button">
+              <h1 class="all-recipes-page-logged-in-matt-heading">
+                Saved Recipes
+              </h1>
+            </div>
+          </div>
+          <div class="all-recipes-page-logged-in-matt-container06">
+            <span class="all-recipes-page-logged-in-matt-text03">
+              Search for something specific....&nbsp;&nbsp;
+            </span>
+            <input
+              type="text"
+              placeholder="Search for a recipe..."
+              class="all-recipes-page-logged-in-matt-textinput input"
+            />
+            <button class="all-recipes-page-logged-in-matt-button button">
+              Search
+            </button>
+          </div>
+        </div>
+        <div id="main-section" class="all-recipes-page-logged-in-matt-main">
+          <div class="all-recipes-page-logged-in-matt-container07">
+            <div class="all-recipes-page-logged-in-matt-container08">
+              <span class="all-recipes-page-logged-in-matt-text04">
+                <span class="all-recipes-page-logged-in-matt-text05">
+                  FILTERS
+                </span>
+                <br />
+              </span>
+              <svg
+                viewBox="0 0 1024 1024"
+                class="all-recipes-page-logged-in-matt-icon"
+              >
+                <path
+                  d="M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z"
+                ></path>
+              </svg>
+              <a
+                href="all-recipes-with-filter.html"
+                class="all-recipes-page-logged-in-matt-navlink1"
+              >
+                <div class="all-recipes-page-logged-in-matt-container09">
+                  <input
+                    type="checkbox"
+                    class="all-recipes-page-logged-in-matt-checkbox"
+                  />
+                  <span class="all-recipes-page-logged-in-matt-text07">
+                    Pasta
+                  </span>
+                </div>
+              </a>
+              <div class="all-recipes-page-logged-in-matt-container10">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox01"
+                />
+                <span class="all-recipes-page-logged-in-matt-text08">
+                  <span>Soups</span>
+                  <br />
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container11">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox02"
+                />
+                <span class="all-recipes-page-logged-in-matt-text11">BBQ</span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container12">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox03"
+                />
+                <span class="all-recipes-page-logged-in-matt-text12">
+                  Pizza
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container13">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox04"
+                />
+                <span class="all-recipes-page-logged-in-matt-text13">
+                  Salads
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container14">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox05"
+                />
+                <span class="all-recipes-page-logged-in-matt-text14">
+                  Noodles
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container15">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox06"
+                />
+                <span class="all-recipes-page-logged-in-matt-text15">
+                  Rice Bowls
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container16">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox07"
+                />
+                <span class="all-recipes-page-logged-in-matt-text16">
+                  Sandwiches&nbsp;
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container17">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox08"
+                />
+                <span class="all-recipes-page-logged-in-matt-text17">
+                  Wraps
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container18">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox09"
+                />
+                <span class="all-recipes-page-logged-in-matt-text18">
+                  Breakfast
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container19">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox10"
+                />
+                <span class="all-recipes-page-logged-in-matt-text19">
+                  Lunch
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container20">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox11"
+                />
+                <span class="all-recipes-page-logged-in-matt-text20">
+                  Dinner
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container21">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox12"
+                />
+                <span class="all-recipes-page-logged-in-matt-text21">
+                  Snacks
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container22">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox13"
+                />
+                <span class="all-recipes-page-logged-in-matt-text22">
+                  Dessert
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container23">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox14"
+                />
+                <span class="all-recipes-page-logged-in-matt-text23">
+                  High Protien
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container24">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox15"
+                />
+                <span class="all-recipes-page-logged-in-matt-text24">
+                  Low Carb
+                </span>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container25">
+                <input
+                  type="checkbox"
+                  class="all-recipes-page-logged-in-matt-checkbox16"
+                />
+                <span class="all-recipes-page-logged-in-matt-text25">
+                  <span>Keto</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="all-recipes-page-logged-in-matt-gallery">
+              <div class="all-recipes-page-logged-in-matt-container26">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGZvb2R8ZW58MHx8fHwxNjY4MjY1NjE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image"
+                />
+                <div class="all-recipes-page-logged-in-matt-container27">
+                  <div class="all-recipes-page-logged-in-matt-container28">
+                    <h2 class="all-recipes-page-logged-in-matt-text28">
+                      Salmon Bowl
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container29">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container30">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxmb29kfGVufDB8fHx8MTY2ODI2NTYxNg&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image01"
+                />
+                <div class="all-recipes-page-logged-in-matt-container31">
+                  <div class="all-recipes-page-logged-in-matt-container32">
+                    <h2 class="all-recipes-page-logged-in-matt-text29">
+                      French Toast
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container33">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container34">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBpenphfGVufDB8fHx8MTY2ODI2NjQxMg&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image02"
+                />
+                <div class="all-recipes-page-logged-in-matt-container35">
+                  <div class="all-recipes-page-logged-in-matt-container36">
+                    <h2 class="all-recipes-page-logged-in-matt-text30">
+                      Vegetarian Pizza
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container37">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container38">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1515516969-d4008cc6241a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1lYXRiYWxsc3xlbnwwfHx8fDE2NjgyNjY0OTQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image03"
+                />
+                <div class="all-recipes-page-logged-in-matt-container39">
+                  <div class="all-recipes-page-logged-in-matt-container40">
+                    <h2 class="all-recipes-page-logged-in-matt-text31">
+                      Mama's Meatballs
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container41">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container42">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGZvb2R8ZW58MHx8fHwxNjY4MjY1NjE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image04"
+                />
+                <div class="all-recipes-page-logged-in-matt-container43">
+                  <div class="all-recipes-page-logged-in-matt-container44">
+                    <h2 class="all-recipes-page-logged-in-matt-text32">
+                      Chicken Skewers
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container45">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container46">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image05"
+                />
+                <div class="all-recipes-page-logged-in-matt-container47">
+                  <div class="all-recipes-page-logged-in-matt-container48">
+                    <h2 class="all-recipes-page-logged-in-matt-text33">
+                      Onion Burger
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container49">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <!-- <a href="recipe-details-page-logged-in.html"></a> -->
+              <div class="recipe-box-container">
+                <a href="recipe-details-page-logged-out.html" style="width:100%">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGFsZnJlZG98ZW58MHx8fHwxNjY4MjY3NjI0&amp;ixlib=rb-4.0.3&amp;h=1500"
+                    class="recipe-box-image"
+                  />
+                </a>
+                <div class="recipe-box-container1">
+                  <a href="recipe-details-page-logged-out.html">
+                    <div class="recipe-box-container2">
+                      <h2 class="recipe-box-text">
+                        <span>Bacon Alfredo</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <div class="recipe-box-container3">
+                    <a href="recipe-details-page-logged-out.html"></a>
+                    <a onclick="heartClicked(this)" class="recipe-box-navlink button">
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all-recipes-page-logged-in-matt-container50">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1609951651556-5334e2706168?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMxfHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image06"
+                />
+                <div class="all-recipes-page-logged-in-matt-container51">
+                  <div class="all-recipes-page-logged-in-matt-container52">
+                    <h2 class="all-recipes-page-logged-in-matt-text34">
+                      Moscow Mule
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container53">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container54">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM2fHxmb29kfGVufDB8fHx8MTY2ODI2NTYxOQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image07"
+                />
+                <div class="all-recipes-page-logged-in-matt-container55">
+                  <div class="all-recipes-page-logged-in-matt-container56">
+                    <h2 class="all-recipes-page-logged-in-matt-text35">
+                      Salmon in Red Sauce
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container57">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container58">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYwfHxmb29kfGVufDB8fHx8MTY2ODI3MDkyNw&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image08"
+                />
+                <div class="all-recipes-page-logged-in-matt-container59">
+                  <div class="all-recipes-page-logged-in-matt-container60">
+                    <h2 class="all-recipes-page-logged-in-matt-text36">
+                      Oreo Dessert
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container61">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container62">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDgwfHxmb29kfGVufDB8fHx8MTY2ODI3MDk0NQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image09"
+                />
+                <div class="all-recipes-page-logged-in-matt-container63">
+                  <div class="all-recipes-page-logged-in-matt-container64">
+                    <h2 class="all-recipes-page-logged-in-matt-text37">
+                      Squash Soup
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container65">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="all-recipes-page-logged-in-matt-container66">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGNoaWNrZW58ZW58MHx8fHwxNjY4MjcwOTcw&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  class="all-recipes-page-logged-in-matt-image10"
+                />
+                <div class="all-recipes-page-logged-in-matt-container67">
+                  <div class="all-recipes-page-logged-in-matt-container68">
+                    <h2 class="all-recipes-page-logged-in-matt-text38">
+                      Roast Chicken
+                    </h2>
+                  </div>
+                  <div class="all-recipes-page-logged-in-matt-container69">
+                    <button
+                      class="recipe-box-navlink button"
+                      onclick="heartClicked(this)"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <!-- Comment: heartClicked function to change visual of heart button -->
+  <script>
+    function heartClicked(element){
+      console.log(element.style["background-image"], 'printed');
+      // Comment: element returns null for background-image on first click, not sure why
+      // This means pre-programmed filled hearts need to be clicked twice
+      if (element.style["background-image"] == "url(\"public/playground_assets/filled-heart-200h.png\")") {
+        element.style.backgroundImage = "url('public/playground_assets/empty-heart-200h.png')";
+      }
+      else {
+        element.style.backgroundImage = "url('public/playground_assets/filled-heart-200h.png')";
+      }
+      
+    }
+  </script>
+  </body>
+</html>
