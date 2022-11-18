@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <title>Recipe-Details-Page-Logged-In - Recipeasy</title>
+    <!-- Import JQuery for JS Logic -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> 
     <meta
       property="og:title"
       content="Recipe-Details-Page-Logged-In - Recipeasy"
@@ -103,7 +105,7 @@
               </div>
             </div>
             <!-- Comment: Had to move outside container to create hover effect -->
-            <button class="recipe-details-page-logged-in-button button">
+            <button class="recipe-details-page-logged-in-button button" onclick="heartClicked(this)">
               &nbsp;
             </button>
           </div>
@@ -374,5 +376,20 @@
       </div>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <!-- Comment: heartClicked function to change visual of heart button -->
+    <script>
+      function heartClicked(element){
+        console.log(element.style["background-image"], 'printed');
+        // Comment: element returns null for background-image on first click, not sure why
+        // This means pre-programmed filled hearts need to be clicked twice
+        if (element.style["background-image"] == "url(\"public/playground_assets/filled-heart-200h.png\")") {
+          element.style.backgroundImage = "url('public/playground_assets/empty-heart-200h.png')";
+        }
+        else {
+          element.style.backgroundImage = "url('public/playground_assets/filled-heart-200h.png')";
+        }
+        
+      }
+    </script>
   </body>
 </html>
